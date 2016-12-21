@@ -1,0 +1,38 @@
+body {
+  background-color: #3C3D3C;
+  margin: 15%;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.header {
+  background-image: url(https://pics.onsizzle.com/angery-1128723.png);
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+#header-text {
+  postion: relative;
+  margin: auto;
+  padding: 75px;
+  text-align: center;
+  top: 25;
+  width: 60%;
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  line-height: 25%;
+}
+
+.header h5 {
+  font-weight: 100;
+}
+
+.content {
+  margin: 15%;
+  margin-top: 0%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Nunito Sans', sans-serif;
+}
