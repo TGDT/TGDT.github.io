@@ -1,4 +1,4 @@
-html, body {
+body {
   background-color: #3C3D3C;
   margin: 15%;
   margin-top: 0px;
@@ -11,6 +11,7 @@ html, body {
   background-size: cover;
   height: 300px;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 #header-text {
@@ -22,10 +23,10 @@ html, body {
   width: 60%;
   font-size: 2em;
   font-family: 'Oswald', sans-serif;
-  line-height: 25%;
+  line-height: 50%;
 }
 
-.header h5 {
+.header h4 {
   font-weight: 100;
 }
 
