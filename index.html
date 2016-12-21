@@ -6,17 +6,31 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <script type="text/javascript">
+      function showSpoiler(obj)
+      {
+      var inner = obj.parentNode.getElementsByTagName("div")[0];
+      if (inner.style.display == "none")
+          inner.style.display = "";
+      else
+          inner.style.display = "none";
+      }
+    </script>
   </head>
   <body>
     <div class="header">
       <div id="header-text">
         <h1>Faggotry</h1>
-        <h5>The worst offenders</h5>
+        <h4>The biggest fags</h4>
       </div>
     </div>
     <div class="content">
-      <p>Everyone.</p>
-      <p>Everyone is garbage.</p>
+      <div class="spoiler">
+        <input type="button" onclick="showSpoiler(this);" value="Show/Hide" />
+        <div class="inner" style="display:none;">
+          <p>Everyone.</p>
+          <p>Everyone is garbage.</p>
+      </div>
     </div>
   </body>
 </html>
