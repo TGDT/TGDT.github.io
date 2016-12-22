@@ -39,3 +39,8 @@ body {
   font-weight: bold;
   font-family: 'Nunito Sans', sans-serif;
 }
+
+.titles {
+  background-color: DarkSlateGray;
+  /*padding: 50px;*/
+}
