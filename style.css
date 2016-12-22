@@ -1,17 +1,17 @@
 body {
-  background-color: #3C3D3C;
-  margin: 15%;
+  background-color: #FFF;
+  margin: 0px;
   margin-top: 0px;
   padding: 0;
 }
 
 .header {
-  background-image: url(https://pics.onsizzle.com/angery-1128723.png);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Grand_Canyon_Panorama_2013.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  min-height: 400px;
   width: 100%;
   margin-bottom: 30px;
 }
@@ -41,9 +41,22 @@ body {
 }
 
 .titles {
+  position: absolute;
+  text-align: center;
   background-color: #111;
-  color: #fff;
+  color: #000;
+  font-family: 'Oswald', sans-serif;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 10px;
+  /* Does this center on page? */
+  width: 100%;
+}
+
+.background-two {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/99/81/71/9981717f0ff14e7e8e2a6027574634d8.jpg);
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
