@@ -45,7 +45,7 @@ html, body {
   position: absolute;
   text-align: center;
   background-color: #111;
-  /*color: #000;*/
+  color: #000;
   font-family: 'Oswald', sans-serif;
   padding: 18px;
   /* Does this center on page? Answer: Yes*/
@@ -55,7 +55,7 @@ html, body {
 
 .background-two {
   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/99/81/71/9981717f0ff14e7e8e2a6027574634d8.jpg);
-  height: 100;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
